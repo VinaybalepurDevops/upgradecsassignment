@@ -15,7 +15,7 @@ Once these are installed follow the steps
  ```
  Use the following environment variables in the ECS containers
  ```
-    Mysql
+   ** Mysql **
     database_name  -> upgradpg
     database_password -> upgradpg
     database_username -> upgradpg
