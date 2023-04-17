@@ -9,7 +9,7 @@ Download [Docker Desktop](https://www.docker.com/products/docker-desktop) for Ma
 
 Once these are installed follow the steps
 ```
- * Create docker images for backend, frontend and mysql database
+ * Create docker images for backend, frontend and mysql database using the repo
  * Tag and Push the images to AWS ECR
  * Use these images in the ECS applation
  ```
