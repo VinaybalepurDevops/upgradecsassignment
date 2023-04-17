@@ -53,4 +53,4 @@ Create a security group and open the following ports to 0.0.0.0/0 Use the same s
     Open port -> 3000
 ``` 
 
-## Once all the services are up access the application using ALB:3000
+## Once all the services are up access the application using http://alb:3000
