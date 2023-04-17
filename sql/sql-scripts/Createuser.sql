@@ -1,0 +1,3 @@
+CREATE USER 'upgradpg'@'%' IDENTIFIED BY 'upgradpg';
+GRANT CREATE, ALTER, DROP, INSERT, UPDATE, DELETE, SELECT, REFERENCES, RELOAD on *.* TO 'upgradpg'@'%' WITH GRANT OPTION;
+flush privileges;
