@@ -16,6 +16,9 @@ Once these are installed follow the steps
 
 ![Network diagram](NetworkDiagram.png)
 
+```
+Create the VPC and attach to all the services deploying the service in the private subnet
+```
 Create a security group and open the following ports to 0.0.0.0/0 Use the same security across all the services
 ```
     Front end -> 3000
