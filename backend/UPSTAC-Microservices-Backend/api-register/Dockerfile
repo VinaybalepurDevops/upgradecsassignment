@@ -6,5 +6,5 @@ RUN mvn clean package install spring-boot:repackage -Pprod
 FROM openjdk
 WORKDIR /upstac-api-register
 COPY --from=api /upstac-api-register/target/upstac-api-0.0.1-SNAPSHOT.jar  /upstac-api-register
-EXPOSE 8080
+EXPOSE 8090
 ENTRYPOINT ["java","-jar", "upstac-api-0.0.1-SNAPSHOT.jar"]

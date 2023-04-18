@@ -8,4 +8,5 @@ RUN npm build
 EXPOSE 3000
 RUN CI=true
 RUN stdin_open=true
+EXPOSE 3000
 CMD ["npm","start"]
